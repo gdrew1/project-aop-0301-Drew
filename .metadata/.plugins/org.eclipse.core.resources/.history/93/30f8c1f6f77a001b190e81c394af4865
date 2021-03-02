@@ -1,0 +1,6 @@
+
+public aspect TraceAspectDrew {
+	
+	pointcut classToTrace(): within(ComponentApp) || within(DataApp) || within(ServiceApp);
+
+}
